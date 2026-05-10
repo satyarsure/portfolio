@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    .bg   { fill: #c2410c; }
+    .text { fill: #fafaf9; }
+    @media (prefers-color-scheme: dark) {
+      .bg   { fill: #fb923c; }
+      .text { fill: #0f1115; }
+    }
+  </style>
+  <rect class="bg" width="64" height="64" rx="12"/>
+  <text class="text" x="50%" y="50%"
+        text-anchor="middle" dominant-baseline="central"
+        font-family="Georgia, 'Iowan Old Style', serif"
+        font-size="34" font-weight="700" letter-spacing="-1">SS</text>
+</svg>
