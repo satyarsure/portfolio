@@ -15,11 +15,11 @@
   <text x="100" y="420"
         font-family="Georgia, 'Iowan Old Style', serif"
         font-size="34" font-style="italic"
-        fill="#52525b">Leading Fortune 500 Data and AI programs.</text>
+        fill="#52525b">Leading Fortune 500 Data, ML, and AI programs.</text>
   <text x="100" y="465"
         font-family="Georgia, 'Iowan Old Style', serif"
         font-size="34" font-style="italic"
-        fill="#52525b">Databricks Lakehouse, Unity Catalog, and GenAI.</text>
+        fill="#52525b">Lakehouse, Unity Catalog, MLOps, Generative AI.</text>
 
   <text x="100" y="560"
         font-family="-apple-system, 'Segoe UI', Roboto, sans-serif"
