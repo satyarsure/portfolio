@@ -25,7 +25,7 @@ A single-page portfolio for **Satya Sure** — Senior Solution Architect & Data 
 ├── index.html       semantic single-page site
 ├── styles.css       theme tokens + responsive layout
 ├── script.js        theme toggle, mobile nav, year stamp
-├── resume.pdf       downloadable CV (add manually before deploy)
+├── SatyaSure.pdf    downloadable CV (add manually before deploy)
 ├── favicon.svg      monogram favicon (adapts to dark mode)
 ├── og-image.svg     social-share source
 ├── og-image.png     social-share PNG (generate from SVG — see below)

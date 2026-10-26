@@ -10,7 +10,7 @@
   <meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)" />
   <link rel="canonical" href="https://satyarsure.github.io/portfolio/" />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=2" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="profile" />
@@ -87,7 +87,7 @@
         A senior Databricks Solutions Architect Champion helping Fortune 500 leaders modernize their Data, Machine Learning, and Generative AI platforms. Two decades architecting Lakehouse foundations, Unity Catalog governance, MLOps, and Generative AI delivery at global, multi cloud scale.
       </p>
       <div class="hero__cta">
-        <a class="btn btn--primary" href="resume.pdf" download="SatyaSure.pdf">Download résumé</a>
+        <a class="btn btn--primary" href="SatyaSure.pdf" download="SatyaSure.pdf">Download résumé</a>
         <a class="btn btn--ghost" href="https://www.linkedin.com/in/satyasure" rel="noopener" target="_blank">LinkedIn ↗</a>
       </div>
     </section>
@@ -107,7 +107,14 @@
             <span class="timeline__role">Forward Deployment Engineer · Resident Solution Architect</span>
             <span class="timeline__date">Sep 2023 to Present</span>
           </div>
-          <p>Lead solution architect across Fortune 500 engagements. Lead critical projects across Unity Catalog (ABAC, Volumes) migrations and governance, Genie One, Genie Agents, Genie Code, Agent Bricks, Lakebase, Lakeflow Connect, Lakeflow Designer, Lakeflow Spark Declarative Pipelines, Lakeflow Jobs, Declarative Automation Bundles, Databricks Apps, Mosaic AI Agent Framework, Model Serving, Vector Search, MLflow, Lakehouse Federation, Terraform, and Managed Disaster Recovery.</p>
+          <p>Lead architect and hands-on builder across Fortune 500 engagements in healthcare, life sciences, energy, insurance, and technology, taking platforms from design through production cutover.</p>
+          <ul class="timeline__points">
+            <li><strong>Governance:</strong> HMS to Unity Catalog migrations, ABAC, row filters and column masking for PII, CCPA / GDPR / HIPAA controls.</li>
+            <li><strong>Data engineering:</strong> Lakeflow Connect, Lakeflow Designer, Spark Declarative Pipelines (DLT), Lakeflow Jobs, Auto Loader, Delta Lake, Lakehouse Federation.</li>
+            <li><strong>ML &amp; GenAI:</strong> MLOps frameworks with MLflow and Model Serving, Lakehouse Monitoring, Mosaic AI Agent Framework, Agent Bricks, Vector Search, Genie One, Genie Agents, Genie Code.</li>
+            <li><strong>Platform &amp; DevOps:</strong> Terraform workspace automation, Declarative Automation Bundles with GitHub Actions and Azure DevOps, Databricks Apps, Lakebase, Managed Disaster Recovery.</li>
+            <li><strong>Impact:</strong> 9 hour Scala workloads rebuilt in PySpark to run in about 40 minutes, reusable accelerators for UC migration, model monitoring, ingestion, and DR.</li>
+          </ul>
         </li>
         <li class="timeline__item">
           <div class="timeline__head">
@@ -138,27 +145,42 @@
 
     <section id="highlights" class="section" aria-labelledby="highlights-title">
       <h2 id="highlights-title" class="section__title">Selected client work</h2>
-      <p class="section__lead">Recent executive engagements I led during my Databricks tenure.</p>
+      <p class="section__lead">Organizations I have architected and delivered Data &amp; AI platforms for.</p>
+      <ul class="clients" aria-label="Clients">
+        <li>Takeda</li>
+        <li>CVS Health</li>
+        <li>Merck</li>
+        <li>Thermo Fisher Scientific</li>
+        <li>Chubb</li>
+        <li>Centene</li>
+        <li>NYU Langone Health</li>
+        <li>Dana-Farber Cancer Institute</li>
+        <li>Geisinger</li>
+        <li>Grammarly</li>
+        <li>Xcel Energy</li>
+        <li>Suncor Energy</li>
+        <li>NRG Energy</li>
+        <li>Exact Sciences</li>
+        <li>Protective Life</li>
+        <li>Newell Brands</li>
+        <li>eClinicalWorks</li>
+        <li>Ludia</li>
+        <li>BPM</li>
+        <li>MMC Tech</li>
+        <li>General Motors</li>
+        <li>Ford Motor Company</li>
+        <li>Bank of America</li>
+      </ul>
       <div class="cards">
         <article class="card">
           <h3 class="card__title">Takeda</h3>
-          <p class="card__tag">MLOps framework · Cost governance · GenAI delivery</p>
-          <p>Designed and delivered a reusable MLOps framework for R&amp;D, standardizing model promotion across Dev, Test, and Prod with UC registered models, MLflow, DABs, and GitHub Actions, validated through a production protocol optimization model with real time serving endpoints and Lakehouse Monitoring. Also built a chargeback framework, led cost optimization and the Serverless upgrade, and rolled out AI/BI Genie, Genie Code, Agent Bricks, and AI Gateway.</p>
+          <p class="card__tag">MLOps framework · GenAI delivery</p>
+          <p>Designed a reusable MLOps framework for R&amp;D that standardizes model promotion across Dev, Test, and Prod with UC registered models, MLflow, DABs, and GitHub Actions, proven by a production protocol optimization model with real time serving and Lakehouse Monitoring. Also built a chargeback framework, led the Serverless upgrade, and rolled out AI/BI Genie, Genie Code, Agent Bricks, and AI Gateway.</p>
         </article>
         <article class="card">
-          <h3 class="card__title">Chubb</h3>
-          <p class="card__tag">Azure governance · Disaster recovery</p>
-          <p>Senior Databricks advisor on Chubb's Azure platform. Delivered a disaster recovery framework, Managed Identities rollout, column level encryption and decryption, OIDM migration support, Power BI authentication, performance tuning, and SAT Tool analysis with weekly architecture advisory.</p>
-        </article>
-        <article class="card">
-          <h3 class="card__title">Centene</h3>
-          <p class="card__tag">Auto Loader · DLT · MLflow 3</p>
-          <p>Senior Databricks advisor on Centene's data engineering programs. Led Auto Loader and DLT/SPL ingestion design including Variant columns and schema evolution, MLflow 3 adoption, Databricks DQX rollout, MongoDB connector integration, and DAB based CI/CD. Resolved production deployment escalations across teams.</p>
-        </article>
-        <article class="card">
-          <h3 class="card__title">CVS</h3>
+          <h3 class="card__title">CVS Health</h3>
           <p class="card__tag">Unity Catalog · ABAC governance</p>
-          <p>Directed the Databricks workspace upgrade from HMS to Unity Catalog and architected Attribute Based Access Control for restrictive client data. Delivered a migration accelerator, led performance tuning root cause analysis across data loads, and supported UWI and Observability initiatives through SDP migration and cutover, dashboards, and serverless connectivity troubleshooting.</p>
+          <p>Directed the upgrade from HMS to Unity Catalog and architected Attribute Based Access Control for restrictive client data. Delivered a migration accelerator, led load performance root cause analysis, and supported UWI and Observability initiatives through SDP migration, cutover, and dashboards.</p>
         </article>
         <article class="card">
           <h3 class="card__title">Merck</h3>
@@ -166,39 +188,69 @@
           <p>Built a Model Monitoring accelerator tracking inference volumes and model drift in real time. Led requirements workshops with stakeholders and architected the supporting Lakehouse model.</p>
         </article>
         <article class="card">
-          <h3 class="card__title">Grammarly, MMC Tech &amp; Geisinger</h3>
-          <p class="card__tag">PII protection · Row-level security</p>
-          <p>Led the design and rollout of row level access controls and column masking for PII, strengthening data privacy and regulatory compliance. Guided teams on security architecture, built a secure isolated training sandbox, and configured system tables, persona based consumption reports, and Lakehouse Federation to on premises sources.</p>
+          <h3 class="card__title">Thermo Fisher Scientific</h3>
+          <p class="card__tag">Managed DR · Terraform</p>
+          <p>Designed and validated a hybrid disaster recovery POC using Databricks Managed DR, Terraform, and CI/CD recovery patterns, covering metastore setup, identity validation, replication mapping, failover testing, and a repeatable onboarding model for production workspaces.</p>
         </article>
         <article class="card">
-          <h3 class="card__title">NRG Energy &amp; Exact Sciences</h3>
-          <p class="card__tag">Scala → PySpark · Snowflake migration</p>
-          <p>Directed the transformation of dozens of Scala jobs into PySpark, cutting end to end runtime from 9 hours to 40 minutes (a 13× improvement) and proving PySpark's agility to the broader engineering team. Migrated and optimized Snowflake views and UDFs for Databricks.</p>
+          <h3 class="card__title">Chubb</h3>
+          <p class="card__tag">Azure governance · Disaster recovery</p>
+          <p>Senior Databricks advisor on Chubb's Azure platform. Delivered a DR framework, Managed Identities rollout, column level encryption and decryption, OIDM migration support, Power BI authentication, performance tuning, and SAT Tool analysis.</p>
         </article>
         <article class="card">
-          <h3 class="card__title">Thermo Fisher Scientific &amp; Xcel Energy</h3>
-          <p class="card__tag">Managed DR · Terraform · Disaster recovery</p>
-          <p>Designed and validated a hybrid DR POC using Databricks Managed DR, Terraform, and targeted CI/CD recovery patterns, covering workspace and metastore setup, identity validation, replication mapping, failover testing, and a repeatable onboarding model. Led a DR impact assessment and delivered a templatized DR code framework for Xcel Energy.</p>
+          <h3 class="card__title">Centene</h3>
+          <p class="card__tag">Auto Loader · DLT · MLflow 3</p>
+          <p>Led Auto Loader and DLT ingestion design including Variant columns and schema evolution, MLflow 3 adoption, Databricks DQX rollout, MongoDB connector integration, and DAB based CI/CD, resolving production deployment escalations across teams.</p>
         </article>
         <article class="card">
-          <h3 class="card__title">NYU Langone &amp; Protective Life</h3>
+          <h3 class="card__title">NYU Langone Health</h3>
           <p class="card__tag">Terraform · Unity Catalog · HIPAA</p>
-          <p>Directed automation of Databricks workspace provisioning and environment management with Terraform and CI/CD, strengthened network access controls, resolved Databricks App access issues, and stood up Unity Catalog with CCPA, GDPR, and HIPAA controls.</p>
+          <p>Automated Databricks workspace provisioning with Terraform and CI/CD and stood up Unity Catalog with CCPA, GDPR, and HIPAA controls for healthcare data governance.</p>
         </article>
         <article class="card">
-          <h3 class="card__title">DFCI &amp; Ludia</h3>
+          <h3 class="card__title">Dana-Farber Cancer Institute</h3>
           <p class="card__tag">DABs CI/CD · Lakehouse design</p>
-          <p>Set up Databricks Asset Bundles with Azure DevOps and GitHub (integrated with GCP Secret Manager) for end to end deployments and designed a well architected Lakehouse. Built a Databricks to Snowflake data accelerator, advised on data exfiltration, and ran a DLT POC with dynamic row filtering and column masking.</p>
+          <p>Set up Databricks Asset Bundles with Azure DevOps and GitHub, integrated with GCP Secret Manager, for end to end deployments, and designed a well architected Lakehouse with dynamic row filtering and column masking.</p>
         </article>
         <article class="card">
-          <h3 class="card__title">Suncor Energy &amp; eClinicalWorks</h3>
+          <h3 class="card__title">Geisinger</h3>
+          <p class="card__tag">Security · Lakehouse Federation</p>
+          <p>Provided security architecture guidance, configured system tables and persona based consumption reports, and connected on premises sources through Lakehouse Federation.</p>
+        </article>
+        <article class="card">
+          <h3 class="card__title">Grammarly</h3>
+          <p class="card__tag">PII protection · Row-level security</p>
+          <p>Led the design and rollout of row level access controls and column masking for PII, strengthening data privacy and regulatory compliance, and guided the team on security posture.</p>
+        </article>
+        <article class="card">
+          <h3 class="card__title">Xcel Energy</h3>
+          <p class="card__tag">Disaster recovery framework</p>
+          <p>Led a Databricks disaster recovery impact assessment and delivered a templatized DR code framework that keeps critical data operations running under failure.</p>
+        </article>
+        <article class="card">
+          <h3 class="card__title">Suncor Energy</h3>
           <p class="card__tag">Auto Loader · Streaming ingestion</p>
-          <p>Architected an Auto Loader based ingestion framework for batch and streaming across multiple file formats, automated workflow creation with DABs, configured Unity Catalog, and integrated model inference within each streaming batch.</p>
+          <p>Architected an Auto Loader based ingestion framework for batch and streaming across multiple file formats, automated workflows with DABs, and integrated model inference within each streaming batch.</p>
         </article>
         <article class="card">
-          <h3 class="card__title">BPM &amp; Newell Brands</h3>
-          <p class="card__tag">Data Vault 2.0 · Declarative Pipelines</p>
-          <p>Built a POC Lakehouse using Data Vault 2.0 and DLT, implementing Medallion data quality monitoring, reusable templates, and Type 2 SCDs with the DLT-META framework, orchestrated through Databricks Workflows.</p>
+          <h3 class="card__title">NRG Energy</h3>
+          <p class="card__tag">Scala → PySpark migration</p>
+          <p>Directed the rewrite of dozens of Scala jobs into PySpark, cutting end to end runtime from 9 hours to about 40 minutes, a 13× improvement.</p>
+        </article>
+        <article class="card">
+          <h3 class="card__title">Exact Sciences</h3>
+          <p class="card__tag">Snowflake → Databricks</p>
+          <p>Migrated and optimized Snowflake views and UDFs for Databricks, preserving business logic while improving performance.</p>
+        </article>
+        <article class="card">
+          <h3 class="card__title">Protective Life</h3>
+          <p class="card__tag">Platform automation</p>
+          <p>Automated workspace creation and environment management with Terraform and CI/CD, strengthened network access controls, and resolved Databricks App access issues.</p>
+        </article>
+        <article class="card">
+          <h3 class="card__title">Newell Brands</h3>
+          <p class="card__tag">Data Vault 2.0 · DLT</p>
+          <p>Built a POC Lakehouse with Data Vault 2.0 and DLT, Medallion data quality monitoring, and Type 2 SCDs using the DLT-META framework, orchestrated through Databricks Workflows.</p>
         </article>
       </div>
     </section>
@@ -310,8 +362,20 @@
     <section id="education" class="section" aria-labelledby="education-title">
       <h2 id="education-title" class="section__title">Education</h2>
       <ul class="edu">
-        <li><strong>M.S. Data Analytics</strong>, Georgia Tech University, Atlanta, GA <span>Dec 2023</span></li>
-        <li><strong>M.S. Electrical &amp; Computer Science Engineering</strong>, Oakland University, Rochester, MI <span>Apr 2003</span></li>
+        <li>
+          <div class="edu__main">
+            <strong>M.S. Data Analytics</strong>
+            <span class="edu__school">Georgia Tech University · Atlanta, GA</span>
+          </div>
+          <span class="edu__date">Dec 2023</span>
+        </li>
+        <li>
+          <div class="edu__main">
+            <strong>M.S. Electrical &amp; Computer Science Engineering</strong>
+            <span class="edu__school">Oakland University · Rochester, MI</span>
+          </div>
+          <span class="edu__date">Apr 2003</span>
+        </li>
       </ul>
     </section>
 
